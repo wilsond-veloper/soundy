@@ -71,11 +71,11 @@ img {
 
 .navbar .nav a {
     padding: 0 1rem;
-    color: #999;
+    color: rgb(201, 201, 201);
 }
 
 .navbar .nav a:hover {
-    color: #555;
+    color: rgb(214, 214, 214);
 }
 
 /* Showcase Style */
@@ -94,12 +94,13 @@ img {
 }
 
 .section-a h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #75D1D1;
 }
 
 .section-a p {
     margin: 1rem 0;
+    font-size: 1.3rem;
 }
 
 /* Section B */
@@ -277,6 +278,10 @@ img {
         text-align: center;
     }
 
+    .section-a .btn {
+        margin-top: 2rem;
+    }
+
     .section-a .container div:first-child {
         order: 2;
     }
@@ -284,4 +289,17 @@ img {
     .section-a .container div:last-child {
         order: -1;
     }
+
+    .section-b{
+        padding-top: 20rem;
+    }
+
+    .section-b-inner h2 {
+        font-size: 3.5rem;
+    }
+
+    .section-b-inner p{
+        font-size: 1.5rem;
+    }
+    
 }
