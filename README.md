@@ -1,2 +1,2 @@
 # soundy
-product landscape website
+Landing page website for a fictional headphones brand.
